@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ce75dunip78r2"
+uid="uid://xrnk4fjahbl8"
 path="res://.godot/imported/animations_hand_r.blend-e37cb91a89b93e5dba74b4a1fc0a8a82.scn"
 
 [deps]
@@ -13,8 +13,8 @@ dest_files=["res://.godot/imported/animations_hand_r.blend-e37cb91a89b93e5dba74b
 
 [params]
 
-nodes/root_type="Node3D"
-nodes/root_name="Scene Root"
+nodes/root_type=""
+nodes/root_name=""
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 meshes/ensure_tangents=true

@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Dungeon"
 run/main_scene="res://game/game_staging.tscn"
-config/features=PackedStringArray("4.1", "Mobile")
+config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -22,7 +22,7 @@ GameState="*res://game/game_state.tscn"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg", "res://addons/godotopenxr/plugin.cfg")
 
 [godot_xr_tools]
 
@@ -48,6 +48,7 @@ input/default_snap_turning=false
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
 occlusion_culling/use_occlusion_culling=true
 
 [xr]
